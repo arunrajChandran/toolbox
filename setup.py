@@ -4,16 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='actoolbox',
     version='0.0.3',
-    author='Mike Huls',
-    author_email='mike_huls@hotmail.com',
+    author='AC',
     description='Testing installation of Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/Muls/toolbox',
+    url='https://github.com/arunrajChandran/toolbox',
     project_urls = {
-        "Bug Tracker": "https://github.com/Muls/toolbox/issues"
+        "Bug Tracker": "https://github.com/arunrajChandran/toolbox/issues"
     },
     license='MIT',
     packages=['toolbox'],
